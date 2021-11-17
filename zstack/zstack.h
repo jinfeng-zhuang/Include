@@ -10,9 +10,9 @@
 #include "types.h"
 
 // system
-#include "file.h"
+#include "io.h"
 #include "time.h"
-#include "net.h"
+#include "network.h"
 #include "log.h"
 #include "ui.h"
 
@@ -30,8 +30,6 @@
 #include "bitstream.h"
 #include "yuv.h"
 
-#include "ipc.h"
-
-#include "mp4.h"
+#include "thread.h"
 
 #endif

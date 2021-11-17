@@ -1,10 +1,12 @@
-#ifndef MISC_H
-#define MISC_H
+#ifndef ZSTACK_MISC_H
+#define ZSTACK_ MISC_H
 
 #include <stddef.h>
 #include <stdio.h>
 #include <stdint.h>
 #include <time.h>
+
+#include "types.h"
 
 /**************************************************************************************************
  *                                              Macros
@@ -73,7 +75,7 @@ enum {
 	HEXDUMP_ASCII = 1<<1,
 };
 
-extern int hexdump(void* buffer, unsigned int length, u32 flags);
+extern int hexdump(void* buffer, unsigned int length, unsigned int flags);
 
 extern void print_usage(void);
 extern int param_parser(int argc, char *argv[], struct application *app);

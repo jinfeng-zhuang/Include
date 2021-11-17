@@ -1,5 +1,5 @@
-#ifndef VS_NET_H
-#define VS_NET_H
+#ifndef ZSTACK_NETWORK_H
+#define ZSTACK_NETWORK_H
 
 #include "types.h"
 

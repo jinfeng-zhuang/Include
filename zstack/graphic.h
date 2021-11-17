@@ -1,7 +1,11 @@
+/*
+ * Based on Computer Graphic Technology.
+ */
+
 #ifndef ZSTACK_GRAPHIC_H
 #define ZSTACK_GRAPHIC_H
 
-#include <zstack/types.h>
+#include "types.h"
 
 #define COLOR_WHITE		0xFFFFFF
 #define COLOR_BLACK		0x000000
